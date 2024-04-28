@@ -117,9 +117,9 @@ class ArShortMessages implements LookupMessages {
   @override
   String hours(int hours) => '$hours س';
   @override
-  String aDay(int hours) => '1 ي';
+  String aDay(int hours) => '1 يوم';
   @override
-  String days(int days) => '$days ي';
+  String days(int days) => '$days يوم';
   @override
   String aboutAMonth(int days) => '1 ش';
   @override
