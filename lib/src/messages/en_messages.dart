@@ -57,9 +57,9 @@ class EnShortMessages implements LookupMessages {
   @override
   String hours(int hours) => '${hours}h';
   @override
-  String aDay(int hours) => '1d';
+  String aDay(int hours) => '1 day';
   @override
-  String days(int days) => '${days}d';
+  String days(int days) => '${days} day';
   @override
   String aboutAMonth(int days) => '1mo';
   @override
